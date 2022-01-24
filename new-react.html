@@ -7,7 +7,6 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
     <script>
         const root = document.getElementById("root");
-        const span = React.createElement("span",{id: "custom-span"});
-        ReactDom.render(span, root);
+        const Title = <h3 id="title" onMouseEnter={() => console.log("mouse enter")}>Hello I'm a title</h3>
     </script>
 </html>
